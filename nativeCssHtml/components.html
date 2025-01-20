@@ -15,12 +15,70 @@
     </head>
     <body>
         <div class="container">
+            <!-- LOGO -->
+            <a href="#" class="logo">
+                <div class="svg-wrapper logo__svg-wrapper">
+                    <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
+                        <use href="./assets/sprite.svg#logo"/>
+                    </svg>
+                </div>
+            </a>
+
+            <!-- LINKS -->
             <a href="#" class="default-button default-button--long-after">ALL</a>
+
+            <!-- BUTTONS -->
             <button class="default-button">SEND MESSAGE</button>
-            <nav class="header-navigation">
-                <ul class="menu header-navigation__menu">
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
+
+            <button class="icon-button">
+                <svg viewBox="0 0 30 30" class="svg-icon button__svg-icon">
+                    <use href="./assets/sprite.svg#go-top-button" />
+                </svg>
+            </button>
+
+            <button class="open-mobile-menu-button">
+                <span class="open-mobile-menu-button__middle-line"></span>
+            </button>
+
+            <button class="close-button"></button>
+
+            <!-- LISTS -->
+            <ul class="menu menu--colgap-20">
+                <li class="menu__item">
+                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
+                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
+                            <use href="./assets/sprite.svg#instagram"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
+                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
+                            <use href="./assets/sprite.svg#telegram"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
+                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
+                            <use href="./assets/sprite.svg#vk"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="menu__item">
+                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
+                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
+                            <use href="./assets/sprite.svg#linkedin"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <!-- NAVIGATIONS -->
+            <nav class="navigation">
+                <ul class="menu navigation__menu ">
+                    <li class="menu__item menu__item--relative-mask-wrapper">
+                        <a href="#" class="menu__link menu__link--with-mask">
                             Home
                             <span class="link-mask">Home</span>
                             <span class="link-mask bottom-link-mask">
@@ -30,8 +88,8 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
+                    <li class="menu__item menu__item--relative-mask-wrapper">
+                        <a href="#" class="menu__link menu__link--with-mask">
                             Skills
                             <span class="link-mask">Skills</span>
                             <span class="link-mask bottom-link-mask">
@@ -41,8 +99,8 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
+                    <li class="menu__item menu__item--relative-mask-wrapper">
+                        <a href="#" class="menu__link menu__link--with-mask">
                             Works
                             <span class="link-mask">Works</span>
                             <span class="link-mask bottom-link-mask">
@@ -52,8 +110,8 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
+                    <li class="menu__item menu__item--relative-mask-wrapper">
+                        <a href="#" class="menu__link menu__link--with-mask">
                             Testimony
                             <span class="link-mask">Testimony</span>
                             <span class="link-mask bottom-link-mask">
@@ -63,8 +121,8 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item">
-                        <a href="#" class="menu__link">
+                    <li class="menu__item menu__item--relative-mask-wrapper">
+                        <a href="#" class="menu__link menu__link--with-mask">
                             Contact
                             <span class="link-mask">Contact</span>
                             <span class="link-mask bottom-link-mask">
@@ -76,61 +134,57 @@
                     </li>
                 </ul>
             </nav>
+
+            <nav class="navigation">
+                <ul class="menu navigation__menu">
+                    <li class="menu__item">
+                        <a href="#" class="default-button menu__default-button menu__default-button--long-after">ALL</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="default-button menu__default-button--long-after">LANDING PAGE</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="default-button menu__default-button--long-after">REACT</a>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="default-button menu__default-button--long-after">SPA</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- FORM FIELDS -->
             <input type="text" class="text-field" placeholder="Name">
-            <h1 class="main-title">A Web Developer.</h1>
-            <h2 class="subtitle">My Skills</h2>
-            <ul class="social-icon-links-menu">
-                <li class="social-icon-links-menu__item">
-                    <a href="#" class="social-icon-links-menu__link">
-                        <svg viewBox="0 0 21 21" class="social-icon-links-menu__icon">
-                            <use href="./assets/sprite.svg#instagram"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-icon-links-menu__item">
-                    <a href="#" class="social-icon-links-menu__link">
-                        <svg viewBox="0 0 21 21" class="social-icon-links-menu__icon">
-                            <use href="./assets/sprite.svg#telegram"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-icon-links-menu__item">
-                    <a href="#" class="social-icon-links-menu__link">
-                        <svg viewBox="0 0 21 21" class="social-icon-links-menu__icon">
-                            <use href="./assets/sprite.svg#vk"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="social-icon-links-menu__item">
-                    <a href="#" class="social-icon-links-menu__link">
-                        <svg viewBox="0 0 21 21" class="social-icon-links-menu__icon">
-                            <use href="./assets/sprite.svg#linkedin"/>
-                        </svg>                                             
-                    </a>
-                </li>
-            </ul>
+            
+            <!-- FORMS -->
             <form class="default-form">
                 <input type="text" class="text-field default-form__text-field" placeholder="Name">
                 <input type="text" class="text-field default-form__text-field" placeholder="Email">
                 <textarea class="text-field default-form__text-area" placeholder="Message"></textarea>                    
                 <button class="default-button default-form__button">SEND MESSAGE</button>
             </form>
-            <nav class="my-works-navigation">
-                <ul class="menu__work-list">
-                    <li class="work-links-navigation__item">
-                        <a href="#" class="default-button default-button--long-after">ALL</a>
-                    </li>
-                    <li>
-                        <a href="#" class="default-button default-button--long-after">LANDING PAGE</a>
-                    </li>
-                    <li>
-                        <a href="#" class="default-button default-button--long-after">REACT</a>
-                    </li>
-                    <li>
-                        <a href="#" class="default-button default-button--long-after">SPA</a>
-                    </li>
-                </ul>
-            </nav>
+
+            <!-- HEADINGS -->
+            <h1 class="main-title">A Web Developer.</h1>
+            <h2 class="layout-section-title">My Skills</h2>
+            <h3 class="subsection-title">HTML5</h3>
+
+            <div class="skill">
+                <a class="logo skill__logo">
+                    <div class="svg-wrapper logo__svg-wrapper logo__svg-wrapper--h50">
+                        <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
+                            <use href="./assets/sprite.svg#logo"/>
+                        </svg>
+                    </div>
+                </a>
+                <h3 class="subsection-title skill__subsection-title">HTML5</h3>
+                <p class="skill__text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+            </div>
+
+            <div class="work">
+                <img src="./assets/people.png" alt="" class="work__image">
+                <h3 class="subsection-title work__subsection-title">Social Network</h3>
+                <p class="work__text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
         </div>
     </body>
 </html>
