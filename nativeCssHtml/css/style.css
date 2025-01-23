@@ -95,7 +95,7 @@ button {
     bottom: -5px;
     left: 50%;
     transform: translateX(-50%);
-    width: calc(100% - 35px);
+    width: 67.5%;
     height: 10px;
     background-color: var(--base-color);
     opacity: 0;
@@ -389,35 +389,51 @@ button {
     justify-self: center;
 }
 
-/* Skill */
-.skill {
-    border: 2px solid red;
+/* Section entry */
+.section-entry {
+    display: flex;
+    flex-direction: column;
 }
-.skill__subsection-title {
+
+.section-entry__subsection-title {
     margin-bottom: 15px;
     margin-top: 71px;
 }
 
-.skill__text-content {
+.section-entry__text-content {
     text-align: center;
+    flex: 1;
 }
 
-/* Work */
-.work {
-    border: 2px solid purple;
-}
-
-.work__subsection-title {
+.section-entry__subsection-title--left-aligned {
     text-align: left;
-    margin-top: 25px;
-    margin-bottom: 14px;
 }
 
+.section-entry__subsection-title--small-margin {
+    margin: 25px 0 14px;
+}
+
+.section-entry__text-content--left-aligned {
+    text-align: left;
+}
+
+.navigation__menu--no-justify {
+    justify-content: flex-start;
+}
+
+.section-entry__text-content--with-bottom-margin {
+    margin-bottom: 10px;
+}
+
+.navigation__menu--col-gap20 {
+    column-gap: 20px;
+}
 /* Image */
-.work__image {
+.section-entry__image {
     height: 260px;
     object-fit: cover;
 }
+
 
 /* || MODIFIERS */
 
@@ -425,8 +441,15 @@ button {
 .menu__default-button--long-after::after {
     width: calc(100% + 20px);
     left: 50%;
-    bottom: -4px;
     transform: translateX(-50%);
+}
+
+.menu__default-button--equal-after::after {
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -3px;
+    z-index: -1;
 }
 
 /* Header navigation menu */
