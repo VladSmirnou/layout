@@ -77,7 +77,7 @@
             <!-- NAVIGATIONS -->
             <nav class="navigation">
                 <ul class="menu navigation__menu ">
-                    <li class="menu__item menu__item--relative-mask-wrapper">
+                    <li class="menu__item menu__item--pos_relative">
                         <a href="#" class="menu__link menu__link--with-mask">
                             Home
                             <span class="link-mask">Home</span>
@@ -88,7 +88,7 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item menu__item--relative-mask-wrapper">
+                    <li class="menu__item menu__item--pos_relative">
                         <a href="#" class="menu__link menu__link--with-mask">
                             Skills
                             <span class="link-mask">Skills</span>
@@ -99,7 +99,7 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item menu__item--relative-mask-wrapper">
+                    <li class="menu__item menu__item--pos_relative">
                         <a href="#" class="menu__link menu__link--with-mask">
                             Works
                             <span class="link-mask">Works</span>
@@ -110,7 +110,7 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item menu__item--relative-mask-wrapper">
+                    <li class="menu__item menu__item--pos_relative">
                         <a href="#" class="menu__link menu__link--with-mask">
                             Testimony
                             <span class="link-mask">Testimony</span>
@@ -121,7 +121,7 @@
                             </span>
                         </a>
                     </li>
-                    <li class="menu__item menu__item--relative-mask-wrapper">
+                    <li class="menu__item menu__item--pos_relative">
                         <a href="#" class="menu__link menu__link--with-mask">
                             Contact
                             <span class="link-mask">Contact</span>
@@ -138,29 +138,45 @@
             <nav class="navigation">
                 <ul class="menu navigation__menu">
                     <li class="menu__item">
-                        <a href="#" class="default-button menu__default-button menu__default-button--long-after">ALL</a>
+                        <a href="#" class="default-button
+                        default-button--with-after
+                        menu__default-button
+                        menu__default-button--after_long">ALL</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="default-button menu__default-button--long-after">LANDING PAGE</a>
+                        <a href="#" class="default-button
+                        default-button--with-after
+                        menu__default-button
+                        menu__default-button--after_long">LANDING PAGE</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="default-button menu__default-button--long-after">REACT</a>
+                        <a href="#" class="default-button
+                        default-button--with-after
+                        menu__default-button 
+                        menu__default-button--after_long">REACT</a>
                     </li>
                     <li class="menu__item">
-                        <a href="#" class="default-button menu__default-button--long-after">SPA</a>
+                        <a href="#" class="default-button
+                        default-button--with-after
+                        menu__default-button
+                        menu__default-button--after_long">SPA</a>
                     </li>
                 </ul>
             </nav>
 
             <!-- FORM FIELDS -->
             <input type="text" class="text-field" placeholder="Name">
-            
+
             <!-- FORMS -->
             <form class="default-form">
                 <input type="text" class="text-field default-form__text-field" placeholder="Name">
                 <input type="text" class="text-field default-form__text-field" placeholder="Email">
                 <textarea class="text-field default-form__text-area" placeholder="Message"></textarea>                    
-                <button class="default-button default-form__button">SEND MESSAGE</button>
+                <button class="default-button
+                default-button--with-after
+                default-form__default-button
+                default-form__default-button--after_short
+                ">SEND MESSAGE</button>
             </form>
 
             <!-- HEADINGS -->
@@ -168,16 +184,19 @@
             <h2 class="layout-section-title">My Skills</h2>
             <h3 class="subsection-title">HTML5</h3>
 
+            <!-- SECTION ENTRIES -->
             <div class="section-entry">
                 <a class="logo section-entry__logo">
-                    <div class="svg-wrapper logo__svg-wrapper logo__svg-wrapper--h50">
+                    <div class="svg-wrapper logo__svg-wrapper 
+                    logo__svg-wrapper--with-before
+                    logo__svg-wrapper--big">
                         <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
                             <use href="./assets/sprite.svg#logo"/>
                         </svg>
                     </div>
                 </a>
                 <h3 class="subsection-title section-entry__subsection-title">HTML5</h3>
-                <p class="section-entry__text-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+                <p class="section-entry__text-content section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
             </div>
 
             <div class="section-entry">
@@ -188,13 +207,57 @@
                 <nav class="navigation section-entry__navigation">
                     <ul class="menu navigation__menu navigation__menu--no-justify navigation__menu--col-gap20">
                         <li class="menu__item">
-                            <a href="#" class="default-button menu__default-button menu__default-button--equal-after">DEMO</a>
+                            <a href="#" class="default-button menu__default-button
+                            default-button--with-after
+                            menu__default-button--after_behind">DEMO</a>
                         </li>
-                        <li class="menu__item--equal-after">
-                            <a href="#" class="default-button menu__default-button menu__default-button--equal-after">CODE</a>
+                        <li class="menu__item">
+                            <a href="#" class="default-button menu__default-button
+                            default-button--with-after menu__default-button--after_behind">CODE</a>
                         </li>
                     </ul>
                 </nav>
+            </div>
+            <div class="section-entry">
+                <a class="logo section-entry__logo">
+                    <div class="svg-wrapper logo__svg-wrapper 
+                    logo__svg-wrapper--with-before
+                    logo__svg-wrapper--big">
+                        <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
+                            <use href="./assets/sprite.svg#logo"/>
+                        </svg>
+                    </div>
+                </a>
+                <p class="section-entry__text-content
+                section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+                <span class="section-entry__slide-author">
+                    @IVAN IVANOW
+                </span>
+            </div>
+
+            <!-- SLIDER -->
+            <div class="slider">
+                <div class="section-entry">
+                    <a class="logo section-entry__logo">
+                        <div class="svg-wrapper logo__svg-wrapper 
+                        logo__svg-wrapper--with-before
+                        logo__svg-wrapper--big">
+                            <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
+                                <use href="./assets/sprite.svg#logo"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <p class="section-entry__text-content
+                    section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
+                    <span class="section-entry__slide-author">
+                        @IVAN IVANOW
+                    </span>
+                </div>
+                <div class="slider__dots">
+                    <span class="slider__dot"></span>
+                    <span class="slider__dot slider__dot--active"></span>
+                    <span class="slider__dot"></span>
+                </div>
             </div>
         </div>
     </body>
