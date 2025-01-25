@@ -1,91 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=360, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=360, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;600;700&family=Poppins&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/style.css">
 
-    <title>VDevPortfolio</title>
-</head>
-<body>
-    <header class="header">
-        <div class="container header__container">
-            <button class="toggle-mobile-menu-button header__toggle-mobile-menu-button">
-                <span class="toggle-mobile-menu-button__middle-line"></span>
-            </button>
-            <div class="desktop-menu-container header__desktop-menu-container">
-                <a href="#" class="logo header__logo">
-                    <svg viewBox="0 0 50 50" class="logo__icon">
-                        <use href="./assets/sprite.svg#logo"/>
-                    </svg>
-                </a>
-                <nav class="navigation header__navigation">
-                    <ul class="menu navigation__menu navigation__menu--gap20">
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                Home
-                                <span class="link-mask">Home</span>
-                                <span class="link-mask bottom-link-mask">
-                                    <span class="inner-link-mask">
-                                        Home
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container header__container">
+                <button class="open-mobile-menu-button header__open-mobile-menu-button">
+                    <span class="open-mobile-menu-button__middle-line"></span>
+                </button>
+                <div class="desktop-menu-wrapper">
+                    <a href="#" class="logo header__logo">
+                        <div class="svg-wrapper logo__svg-wrapper">
+                            <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
+                                <use href="./assets/sprite.svg#logo"/>
+                            </svg>
+                        </div>
+                    </a>
+                    <nav class="navigation header__navigation">
+                        <ul class="menu navigation__menu navigation__menu--col-gap20">
+                            <li class="menu__item menu__item--pos_relative">
+                                <a href="#" class="menu__link menu__link--with-mask menu__link--with-mask--color_base">
+                                    Home
+                                    <span class="link-mask">Home</span>
+                                    <span class="link-mask bottom-link-mask">
+                                        <span class="inner-link-mask">
+                                            Home
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                Skills
-                                <span class="link-mask">Skills</span>
-                                <span class="link-mask bottom-link-mask">
-                                    <span class="inner-link-mask">
-                                        Skills
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item--pos_relative">
+                                <a href="#" class="menu__link menu__link--with-mask menu__link--with-mask--color_base">
+                                    Skills
+                                    <span class="link-mask">Skills</span>
+                                    <span class="link-mask bottom-link-mask">
+                                        <span class="inner-link-mask">
+                                            Skills
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                Works
-                                <span class="link-mask">Works</span>
-                                <span class="link-mask bottom-link-mask">
-                                    <span class="inner-link-mask">
-                                        Works
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item--pos_relative">
+                                <a href="#" class="menu__link menu__link--with-mask menu__link--with-mask--color_base">
+                                    Works
+                                    <span class="link-mask">Works</span>
+                                    <span class="link-mask bottom-link-mask">
+                                        <span class="inner-link-mask">
+                                            Works
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                Testimony
-                                <span class="link-mask">Testimony</span>
-                                <span class="link-mask bottom-link-mask">
-                                    <span class="inner-link-mask">
-                                        Testimony
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item--pos_relative">
+                                <a href="#" class="menu__link menu__link--with-mask menu__link--with-mask--color_base">
+                                    Testimony
+                                    <span class="link-mask">Testimony</span>
+                                    <span class="link-mask bottom-link-mask">
+                                        <span class="inner-link-mask">
+                                            Testimony
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="menu__link">
-                                Contact
-                                <span class="link-mask">Contact</span>
-                                <span class="link-mask bottom-link-mask">
-                                    <span class="inner-link-mask">
-                                        Contact
+                                </a>
+                            </li>
+                            <li class="menu__item menu__item--pos_relative">
+                                <a href="#" class="menu__link menu__link--with-mask menu__link--with-mask--color_base">
+                                    Contact
+                                    <span class="link-mask">Contact</span>
+                                    <span class="link-mask bottom-link-mask">
+                                        <span class="inner-link-mask">
+                                            Contact
+                                        </span>
                                     </span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </header>
-</body>
+        </header>
+        <section class="main">
+            <div class="container main__container">
+                <div class="main__text-content">
+                    <span class="main__greeting">Hi There</span>
+                    <p class="main__name">I am <span class="main__name_wrapper">Random name</span></p>
+                    <h1 class="main-title main__main_title">A Web Developer.|</h1>
+                </div>
+                <div class="main_img_wrapper">
+                    <img class="main__img" src="./assets/main_image.jpg" alt="">
+                </div>
+            </div>
+        </section>
+    </body>
 </html>
