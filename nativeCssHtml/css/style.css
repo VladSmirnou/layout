@@ -88,6 +88,7 @@ section:nth-child(odd) {
     transition: outline var(--transition-duration);
     letter-spacing: 1px;
     width: max-content;
+    cursor: pointer;
 }
 
 .default-button:focus-visible {
@@ -160,7 +161,7 @@ section:nth-child(odd) {
 
 /* Subsection title */
 .subsection-title {
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
@@ -259,7 +260,7 @@ section:nth-child(odd) {
 
 .header__navigation {
     margin-left: auto;
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', serif;
     font-size: 36px;
     line-height: 55px;
 }
@@ -304,7 +305,7 @@ section:nth-child(odd) {
 }
 
 .section-entry__slide-author {
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
@@ -346,7 +347,7 @@ section:nth-child(odd) {
 }
 
 .main__name {
-    font-family: 'Josefin Sans';
+    font-family: 'Josefin Sans', serif;
     font-weight: 700;
     font-size: 36px;
     line-height: 40px;
@@ -430,7 +431,72 @@ section:nth-child(odd) {
 .works-text-content-wrapper {
     padding: 25px 20px 34px 20px;
 }
+
+/* Testimony */
+.testimony {
+    padding: 80px 0 80px;
+}
+
+.testimony__slider {
+    margin-top: 115px;
+}
+
+/* Contact */
+.contact {
+    padding: 80px 0 90px;
+}
+
+.contact__default-form {
+    margin: 74px 0 25px;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Footer */
+.footer {
+    padding: 40px 0;
+}
+
+.footer__outro-text {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--slider-inactive-dot)
+}
+
+.footer__layout-section-title {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 3px;
+}
+
+.footer__menu {
+    margin: 30px 0;
+}
+
+/* Arrow up */
+.icon-button--pos_fixed {
+    position: fixed;
+    bottom: 24px;
+    right: 30px;
+}
+
 /* || MODIFIERS */
+
+/* Slider */
+.section-entry--test-slide-width {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Testimony */
+.section-entry__text-content--testimony-margin {
+    margin-top: 72px;
+    margin-bottom: 22px;
+}
 
 /* My Works */
 .navigation__menu--just_sb {
@@ -646,7 +712,22 @@ section:nth-child(odd) {
     transform: translateX(-50%) translateY(-50%) rotate(45deg);
 }
 
-/* Works */
+/* Freelance */
+.freelance {
+    padding-top: 80px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.freelance__layout-section-title {
+    margin-bottom: 91px;
+}
+
+.freelance__default-button--after_long::after {
+    width: calc(100% + 20px);
+    bottom: -6px;
+}
+
 
 /* || OTHER STYLES */
 
