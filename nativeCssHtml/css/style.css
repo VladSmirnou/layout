@@ -1,3 +1,10 @@
+@import '../components/svg-icon/svg-icon.css';
+@import '../components/svg-icon/_size/svg-icon_size_s.css';
+@import '../components/svg-icon/_fill/svg-icon_fill_current.css';
+@import '../components/logo/logo.css';
+@import '../components/logo/_background-shape/logo_background-shape_square.css';
+@import '../components/logo/_background-shape/logo_background-shape_circle.css';
+
 /* || VARIABLES */
 :root {
     /* Colors */
@@ -33,11 +40,6 @@ body {
     color: var(--base-color-text);
     background-color: var(--base-color-background);
 }
-
-/* img {
-    max-width: 100%;
-    width: 100%
-} */
 
 a {
     text-decoration: none;
@@ -93,13 +95,6 @@ section:nth-child(odd) {
 
 .default-button:focus-visible {
     outline-color: var(--base-color);
-}
-
-/* Svg icon */
-.svg-icon {
-    fill: currentColor;
-    display: inline-block;
-    height: 100%;
 }
 
 /* Descktop menu */
@@ -224,18 +219,10 @@ section:nth-child(odd) {
 }
 
 /* Icon button */
-.icon-button {}
 
 .button__svg-icon {
     width: 30px;
     height: 30px;
-}
-
-/* Logo */ 
-.logo {
-    color: var(--base-color);
-    display: flex;
-    justify-content: center;
 }
 
 /* Header */ 
@@ -592,10 +579,10 @@ section:nth-child(odd) {
     outline-color: var(--base-color);
 }
 
-.menu__svg-icon--social-link-sized {
+/* .menu__svg-icon--social-link-sized {
     width: 21px;
     height: 21px;
-}
+} */
 
 /* Section title */
 .layout-section-title--position_relative {

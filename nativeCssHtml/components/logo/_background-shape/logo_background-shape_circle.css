@@ -1,0 +1,28 @@
+.logo_background-shape_circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    background: var(--social-icons-background);
+    border-radius: 50%;
+    transition: transform var(--transition-duration),
+                color var(--transition-duration),
+                background-color var(--transition-duration),
+                outline-color var(--transition-duration),
+                outline-offset 0.1s ease-out;
+    color: var(--base-color);
+    outline: solid 2px transparent;
+    outline-offset: 0px;
+}
+
+.logo_background-shape_circle:hover {
+    transform: translateY(-4px);
+    color: var(--base-color-background-90);
+    background-color: var(--base-color);
+    outline-offset: 2px;
+}
+
+.logo_background-shape_circle:focus-visible {
+    outline-color: var(--base-color);
+}

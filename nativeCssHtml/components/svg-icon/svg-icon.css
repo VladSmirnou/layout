@@ -1,0 +1,5 @@
+.svg-icon {
+    fill: var(--base-color);
+    display: block;
+    height: 50px;
+}

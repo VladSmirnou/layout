@@ -1,0 +1,14 @@
+.logo_background-shape_square {
+    position: relative;
+}
+
+.logo_background-shape_square::before {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    background-color: var(--social-icons-background);
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%) rotate(45deg);
+}
