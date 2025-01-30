@@ -1,0 +1,21 @@
+.text-field {
+    background-color: var(--alt-color-background);
+    border: 1px solid var(--field-stroke);
+    padding: 6px 15px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.05em;
+    outline: none;
+    color: var(--base-color-text);
+    caret-color: var(--base-color);
+    transition: border-color var(--transition-duration);
+    width: 100%;
+}
+
+.text-field:focus {
+    border-color: var(--base-color);
+}
+
+.text-field::placeholder {
+    color: var(--placeholder-color);
+}

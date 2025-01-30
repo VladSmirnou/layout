@@ -1,0 +1,22 @@
+.burger-menu-button__middle-line {
+    height: 2px;
+    background-color: var(--base-color-text);
+    width: 100%;
+}
+
+.burger-menu-button__middle-line::before, 
+.burger-menu-button__middle-line::after {
+    content: '';
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0
+}
+
+.burger-menu-button__middle-line::after {
+    top: auto;
+    left: 16px;
+    bottom: 0;
+}

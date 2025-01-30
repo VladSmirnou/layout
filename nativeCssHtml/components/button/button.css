@@ -1,0 +1,17 @@
+/* common: font, color */
+.button {
+    font-weight: 400;
+    line-height: 21px;
+    color: var(--base-color-text);
+    border-radius: 2px;
+    outline: solid 2px transparent;
+    outline-offset: 3px;
+    transition: outline var(--transition-duration);
+    letter-spacing: 1px;
+    text-wrap: nowrap;
+    cursor: pointer;
+}
+
+.button:focus-visible {
+    outline-color: var(--base-color);
+}

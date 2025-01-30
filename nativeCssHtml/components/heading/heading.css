@@ -1,0 +1,35 @@
+/* common */
+.heading {
+    font-family: 'Josefin Sans', serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* --- assign / reassign --- */
+/* main heading */
+/* font-family: 'Poppins';
+font-size: 27px;
+line-height: 40px; */
+
+/* subsection heading */
+    /* skills / works */
+    /* font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px; */
+
+    /* works */
+    /* text-align: left; */
+    
+/* section heading */
+/* font-weight: 600;
+font-size: 36px;
+line-height: 36px;
+letter-spacing: 5px; */
+
+/* main heading */
+/* font-weight: 400; */
+
+/* footer heading  */
+/* font-size: 22px;
+line-height: 22px;
+letter-spacing: 3px; */

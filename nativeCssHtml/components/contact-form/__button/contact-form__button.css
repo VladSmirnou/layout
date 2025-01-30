@@ -1,0 +1,12 @@
+.contact-form__button {
+    text-align: center;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+.contact-form__button::after {
+    width: 67.5%;
+    bottom: -5px;
+}

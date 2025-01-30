@@ -1,0 +1,7 @@
+.burger-menu-button {
+    width: 36px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}

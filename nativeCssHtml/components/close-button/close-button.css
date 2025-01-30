@@ -1,0 +1,20 @@
+.close-button {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.close-button::before, .close-button::after {
+    content: '';
+    height: 2px;
+    position: absolute;
+    background-color: white;
+    width: 32px;
+    top: 50%;
+    transform: translateY(-50%) rotate(45deg);
+    left: -4px;
+}
+
+.close-button::after {
+    transform: translateY(-50%) rotate(-45deg);
+}

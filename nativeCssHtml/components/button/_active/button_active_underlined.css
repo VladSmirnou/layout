@@ -1,0 +1,18 @@
+.button_active_underlined {
+    position: relative;
+}
+
+.button_active_underlined::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 10px;
+    background-color: var(--base-color);
+    opacity: 0;
+    transition: visibility var(--transition-duration), opacity var(--transition-duration);
+}
+
+.button_active_underlined:active::after {
+    opacity: 1;
+}

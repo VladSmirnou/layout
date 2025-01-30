@@ -1,0 +1,5 @@
+.list__button_underline_work::after {
+    width: 100%;
+    z-index: -1;
+    bottom: -3px;
+}
