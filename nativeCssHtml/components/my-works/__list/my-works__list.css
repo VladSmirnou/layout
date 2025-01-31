@@ -1,0 +1,6 @@
+.my-works__list {
+    padding: 0 10px;
+    justify-content: space-between;
+    margin: 84px auto 49px;
+    max-width: 352px;
+}

@@ -1,0 +1,15 @@
+.main__name {
+    font-family: Josefin Sans, serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: var(--base-color-text);
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+/* 
+font-size: 50px;
+line-height: 50px;
+ */

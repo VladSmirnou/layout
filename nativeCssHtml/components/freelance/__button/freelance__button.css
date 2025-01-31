@@ -1,0 +1,7 @@
+.freelance__button {
+    margin-top: 91px;
+}
+
+.freelance__button::after {
+    bottom: -5px;
+}

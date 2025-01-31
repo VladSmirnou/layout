@@ -1,0 +1,16 @@
+.main__name-wrapper {
+    position: relative;
+    text-wrap: nowrap;
+    z-index: 0;
+}
+
+.main__name-wrapper::after {
+    content: '';
+    position: absolute;
+    height: 20px;
+    background-color: var(--base-color);
+    bottom: -7px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}

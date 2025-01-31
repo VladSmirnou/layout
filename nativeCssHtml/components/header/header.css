@@ -1,0 +1,7 @@
+.header {
+    background-color: var(--alt-color-background);
+    height: 65px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

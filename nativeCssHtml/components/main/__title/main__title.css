@@ -1,0 +1,8 @@
+.main__title {
+    display: inline;
+    font-size: 27px;
+    line-height: 40px;
+    color: var(--base-color-text);
+    font-weight: 400;
+    margin: 0;
+}

@@ -1,0 +1,8 @@
+.my-works__inner {
+    display: grid;
+    column-gap: 60px;
+    row-gap: 30px;
+    justify-items: center;
+    grid-template-columns: 1fr;
+    align-items: start;
+}

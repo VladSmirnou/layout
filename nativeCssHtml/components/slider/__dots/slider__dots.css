@@ -1,0 +1,6 @@
+.slider__dots {
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    margin-top: 42px;
+}

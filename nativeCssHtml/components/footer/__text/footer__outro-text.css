@@ -1,0 +1,6 @@
+.footer__outro-text {
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: var(--slider-inactive-dot)
+}

@@ -1,0 +1,3 @@
+.button_active_long-underline::after {
+    width: calc(100% + 20px);
+}
