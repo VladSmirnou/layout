@@ -1,0 +1,16 @@
+.section-entry__overlay-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.section-entry__overlay-wrapper:hover::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(4px);
+}
+
+.section-entry__overlay-wrapper:hover .section-entry__button {
+    display: inline-block;
+}

@@ -1,0 +1,11 @@
+.section-entry__button {
+    position: absolute;
+    display: none;
+    left: 50%;
+    top: 50%;
+    color: black;
+    background-color: var(--base-color);
+    width: 170px;
+    height: 32px;
+    transform: translateX(-50%) translateY(-50%);
+}

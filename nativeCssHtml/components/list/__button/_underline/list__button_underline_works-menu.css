@@ -1,0 +1,4 @@
+.list__button_underline_works-menu::after {
+    width: calc(100% + 20px);
+    bottom: -5px;
+}

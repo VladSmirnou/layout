@@ -6,6 +6,7 @@
 @import '../components/list/list.css';
 @import '../components/list/_colgap/list_colgap_20.css';
 @import '../components/list/__button/_underline/list__button_underline_work.css';
+@import '../components/list/__button/_underline/list__button_underline_works-menu.css';
 
 @import '../components/section-entry/section-entry.css';
 @import '../components/section-entry/__heading/_text-style/section-entry__heading_text-style_skill.css';
@@ -14,9 +15,11 @@
 @import '../components/section-entry/_padding/section-entry_padding_skill.css';
 @import '../components/section-entry/__descr/_margin/section-entry__descr_margin_slider.css';
 @import '../components/section-entry/__image/section-entry__image.css';
-@import '../components/section-entry/__descr/_text-style/section-entry__descr_text-align-l.css';
-@import '../components/section-entry/__work-text-content-wrapper/section-entry__work-text-content-wrapper.css';
+@import '../components/section-entry/__descr/_text-style/section-entry__descr_text-align_l.css';
+@import '../components/section-entry/__inner/section-entry__inner.css';
 @import '../components/section-entry/__descr/_margin/section-entry__descr_margin_work.css';
+@import '../components/section-entry/__overlay-wrapper/section-entry__overlay-wrapper.css';
+@import '../components/section-entry/__button/section-entry__button.css';
 
 @import '../components/contact-form/__fieldset/contact-form__fieldset.css';
 @import '../components/contact-form/__button/contact-form__button.css';
@@ -114,7 +117,7 @@ section:nth-child(odd) {
 }
 
 /* Default button */
-.default-button {
+/* .default-button {
     font-weight: 400;
     line-height: 21px;
     color: var(--base-color-text);
@@ -129,7 +132,7 @@ section:nth-child(odd) {
 
 .default-button:focus-visible {
     outline-color: var(--base-color);
-}
+} */
 
 /* Descktop menu */
 .desktop-menu-container {
@@ -170,36 +173,36 @@ section:nth-child(odd) {
 } */
 
 /* Main title */
-.main-title {
+/* .main-title {
     display: inline;
     font-size: 27px;
     line-height: 40px;
     color: var(--base-color-text);
     font-weight: 400;
     margin: 0;
-}
+} */
 
 /* Section title */
-.layout-section-title {
+/* .layout-section-title {
     font-family: 'Josefin Sans', serif;
     font-weight: 600;
     font-size: 36px;
     line-height: 36px;
     letter-spacing: 5px;
-}
+} */
 
 /* Subsection title */
-.subsection-title {
+/* .subsection-title {
     font-family: 'Josefin Sans', serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 16px;
     letter-spacing: 1px;
     color: var(--base-color-text);
-}
+} */
 
 /* Mobile menu button */
-.open-mobile-menu-button {
+/* .open-mobile-menu-button {
     width: 36px;
     height: 20px;
     position: relative;
@@ -228,7 +231,7 @@ section:nth-child(odd) {
     top: auto;
     left: 16px;
     bottom: 0;
-}
+} */
 
 /* Close button */
 /* .close-button {
@@ -254,10 +257,10 @@ section:nth-child(odd) {
 
 /* Icon button */
 
-.button__svg-icon {
+/* .button__svg-icon {
     width: 30px;
     height: 30px;
-}
+} */
 
 /* Header */ 
 .header {
@@ -315,8 +318,8 @@ section:nth-child(odd) {
     flex-direction: column;
 } */
 
-.section-entry__text-content {
-}
+/* .section-entry__text-content {
+} */
 
 /* Image */
 /* .section-entry__image {
@@ -325,16 +328,16 @@ section:nth-child(odd) {
     width: 100%;
 } */
 
-.section-entry__slide-author {
+/* .section-entry__slide-author {
     font-family: 'Josefin Sans', serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 16px;
     align-self: center;
-}
+} */
 
 /* Slider */
-.slider {}
+/* .slider {} */
 
 .slider__dots {
     display: flex;
@@ -364,7 +367,6 @@ section:nth-child(odd) {
 /* Main */
 .main {
     padding: 65px 0 80px;
-    /* padding: 231px 0 298px; */
 }
 
 .main__name {

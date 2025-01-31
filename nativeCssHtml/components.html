@@ -67,30 +67,52 @@
             <!-- TEXT FIELD -->
             <input type="text" class="text-field" placeholder="Name">
 
-            <!-- MAIN NAV MENU LINK -->
+            <!-- WORK BUTTONS -->
+            <ul class="list">
+                <li class="list__item">
+                    <a href="#" class="button button_active_underlined list__button list__button_underline_works-menu">ALL</a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="button button_active_underlined list__button list__button_underline_works-menu">LANDING PAGE</a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="button button_active_underlined list__button list__button_underline_works-menu">REACT</a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="button button_active_underlined list__button list__button_underline_works-menu">SPA</a>
+                </li>
+            </ul>
 
             <!-- SOCIAL LINK LIST -->
             <ul class="list list_colgap_20">
-                <a href="#" class="logo logo_background-shape_circle">
-                    <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
-                        <use href="./assets/sprite.svg#instagram"/>
-                    </svg>
-                </a>
-                <a href="#" class="logo logo_background-shape_circle">
-                    <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
-                        <use href="./assets/sprite.svg#telegram"/>
-                    </svg>
-                </a>
-                <a href="#" class="logo logo_background-shape_circle">
-                    <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
-                        <use href="./assets/sprite.svg#vk"/>
-                    </svg>
-                </a>
-                <a href="#" class="logo logo_background-shape_circle">
-                    <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
-                        <use href="./assets/sprite.svg#linkedin"/>
-                    </svg>
-                </a>
+                <li class="list__item">
+                    <a href="#" class="logo logo_background-shape_circle">
+                        <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
+                            <use href="./assets/sprite.svg#instagram"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="logo logo_background-shape_circle">
+                        <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
+                            <use href="./assets/sprite.svg#telegram"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="logo logo_background-shape_circle">
+                        <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
+                            <use href="./assets/sprite.svg#vk"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="#" class="logo logo_background-shape_circle">
+                        <svg viewBox="0 0 21 21" class="svg-icon logo__svg-icon logo__svg-icon_size_s logo__svg-icon_fill_current">
+                            <use href="./assets/sprite.svg#linkedin"/>
+                        </svg>
+                    </a>
+                </li>
             </ul>
 
             <!-- CONTACT FORM -->
@@ -129,16 +151,19 @@
 
             <!-- WORK SECTION ENTRY -->
             <div class="section-entry">
-                <img class="section-entry__image" src="./assets/people.png" alt="" >
-                <div class="section-entry section-entry__work-text-content-wrapper">
+                <div class="section-entry__overlay-wrapper">
+                    <img class="section-entry__image" src="./assets/people.png" alt="" >
+                    <button class="button section-entry__button">VIEW PROJECT</button>
+                </div>
+                <div class="section-entry__inner">
                     <h3 class="heading section-entry__heading section-entry__heading_text-style_skill">Social Network</h3>
-                    <p class="section-entry__descr section-entry__descr_margin_work section-entry__descr_text-align-l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                    <nav>
+                    <p class="section-entry__descr section-entry__descr_margin_work section-entry__descr_text-align_l">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <nav class="section-entry__work-navigation">
                         <ul class="list list_colgap_20">
-                            <li>
+                            <li class="list__item">
                                 <a href="#" class="button button_active_underlined list__button_underline_work">DEMO</a>
                             </li> 
-                            <li>
+                            <li class="list__item">
                                 <a href="#" class="button button_active_underlined list__button_underline_work">CODE</a>
                             </li> 
                         </ul>
@@ -146,265 +171,11 @@
                 </div>
             </div>
 
+            <!-- MAIN NAV MENU LINK -->
+
             <br/>
             <hr>
             <!-- -------------- SECOND ITERATION ----------------- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-            <!-- LINKS -->
-            <a href="#" class="button">ALL</a>
-
-            <!-- BUTTONS -->
-            <button class="button">SEND MESSAGE</button>
-
-            <button class="icon-button">
-                <svg viewBox="0 0 30 30" class="svg-icon button__svg-icon">
-                    <use href="./assets/sprite.svg#go-top-button" />
-                </svg>
-            </button>
-
-            <button class="open-mobile-menu-button">
-                <span class="open-mobile-menu-button__middle-line"></span>
-            </button>
-
-            <button class="close-button"></button>
-
-            <!-- LISTS -->
-            <ul class="menu menu--colgap-20">
-                <li class="menu__item">
-                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
-                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
-                            <use href="./assets/sprite.svg#instagram"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
-                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
-                            <use href="./assets/sprite.svg#telegram"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
-                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
-                            <use href="./assets/sprite.svg#vk"/>
-                        </svg>
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a href="#" class="logo menu__logo menu__logo--social-link-theme">
-                        <svg viewBox="0 0 21 21" class="svg-icon menu__svg-icon menu__svg-icon--social-link-sized">
-                            <use href="./assets/sprite.svg#linkedin"/>
-                        </svg>
-                    </a>
-                </li>
-            </ul>
-
-            <!-- NAVIGATIONS -->
-            <nav class="navigation">
-                <ul class="menu navigation__menu ">
-                    <li class="menu__item menu__item--pos_relative">
-                        <a href="#" class="menu__link menu__link--with-mask">
-                            Home
-                            <span class="link-mask">Home</span>
-                            <span class="link-mask bottom-link-mask">
-                                <span class="inner-link-mask">
-                                    Home
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="menu__item menu__item--pos_relative">
-                        <a href="#" class="menu__link menu__link--with-mask">
-                            Skills
-                            <span class="link-mask">Skills</span>
-                            <span class="link-mask bottom-link-mask">
-                                <span class="inner-link-mask">
-                                    Skills
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="menu__item menu__item--pos_relative">
-                        <a href="#" class="menu__link menu__link--with-mask">
-                            Works
-                            <span class="link-mask">Works</span>
-                            <span class="link-mask bottom-link-mask">
-                                <span class="inner-link-mask">
-                                    Works
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="menu__item menu__item--pos_relative">
-                        <a href="#" class="menu__link menu__link--with-mask">
-                            Testimony
-                            <span class="link-mask">Testimony</span>
-                            <span class="link-mask bottom-link-mask">
-                                <span class="inner-link-mask">
-                                    Testimony
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                    <li class="menu__item menu__item--pos_relative">
-                        <a href="#" class="menu__link menu__link--with-mask">
-                            Contact
-                            <span class="link-mask">Contact</span>
-                            <span class="link-mask bottom-link-mask">
-                                <span class="inner-link-mask">
-                                    Contact
-                                </span>
-                            </span>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-            <nav class="navigation">
-                <ul class="menu navigation__menu">
-                    <li class="menu__item">
-                        <a href="#" class="default-button
-                        default-button--with-after
-                        menu__default-button
-                        menu__default-button--after_long">ALL</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="default-button
-                        default-button--with-after
-                        menu__default-button
-                        menu__default-button--after_long">LANDING PAGE</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="default-button
-                        default-button--with-after
-                        menu__default-button 
-                        menu__default-button--after_long">REACT</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="#" class="default-button
-                        default-button--with-after
-                        menu__default-button
-                        menu__default-button--after_long">SPA</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <!-- FORM FIELDS -->
-            <input type="text" class="text-field" placeholder="Name">
-
-            <!-- FORMS -->
-            <form class="default-form">
-                <input type="text" class="text-field default-form__text-field" placeholder="Name">
-                <input type="text" class="text-field default-form__text-field" placeholder="Email">
-                <textarea class="text-field default-form__text-area" placeholder="Message"></textarea>                    
-                <button class="default-button
-                default-button--with-after
-                default-form__default-button
-                default-form__default-button--after_short
-                ">SEND MESSAGE</button>
-            </form>
-
-            <!-- HEADINGS -->
-            <h1 class="main-title">A Web Developer.|</h1>
-            <h2 class="layout-section-title">My Skills</h2>
-            <h3 class="subsection-title">HTML5</h3>
-
-            <!-- SECTION ENTRIES -->
-            <div class="section-entry">
-                <a class="logo section-entry__logo">
-                    <div class="svg-wrapper logo__svg-wrapper 
-                    logo__svg-wrapper--with-before
-                    logo__svg-wrapper--big">
-                        <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
-                            <use href="./assets/sprite.svg#logo"/>
-                        </svg>
-                    </div>
-                </a>
-                <h3 class="subsection-title section-entry__subsection-title">HTML5</h3>
-                <p class="section-entry__text-content section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
-            </div>
-
-            <div class="section-entry">
-                <img class="section-entry__image" src="./assets/people.png" alt="" >
-                <h3 class="subsection-title section-entry__subsection-title section-entry__subsection-title--left-aligned section-entry__subsection-title--small-margin">Social Network</h3>
-                <p class="section-entry__text-content section-entry__text-content--left-aligned
-                section-entry__text-content--with-bottom-margin">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <nav class="navigation section-entry__navigation">
-                    <ul class="menu navigation__menu navigation__menu--no-justify navigation__menu--col-gap20">
-                        <li class="menu__item">
-                            <a href="#" class="default-button menu__default-button
-                            default-button--with-after
-                            menu__default-button--after_behind">DEMO</a>
-                        </li>
-                        <li class="menu__item">
-                            <a href="#" class="default-button menu__default-button
-                            default-button--with-after menu__default-button--after_behind">CODE</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-
-            <div class="section-entry">
-                <a class="logo section-entry__logo">
-                    <div class="svg-wrapper logo__svg-wrapper 
-                    logo__svg-wrapper--with-before
-                    logo__svg-wrapper--big">
-                        <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
-                            <use href="./assets/sprite.svg#logo"/>
-                        </svg>
-                    </div>
-                </a>
-                <p class="section-entry__text-content
-                section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
-                <span class="section-entry__slide-author">
-                    @IVAN IVANOW
-                </span>
-            </div>
-
-            <!-- SLIDER -->
-            <div class="slider">
-                <div class="section-entry">
-                    <a class="logo section-entry__logo">
-                        <div class="svg-wrapper logo__svg-wrapper 
-                        logo__svg-wrapper--with-before
-                        logo__svg-wrapper--big">
-                            <svg viewBox="0 0 50 50" class="svg-icon svg-wrapper__svg-icon">
-                                <use href="./assets/sprite.svg#logo"/>
-                            </svg>
-                        </div>
-                    </a>
-                    <p class="section-entry__text-content
-                    section-entry__text-content--text_centered">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua Ut enim</p>
-                    <span class="section-entry__slide-author">
-                        @IVAN IVANOW
-                    </span>
-                </div>
-                <div class="slider__dots">
-                    <span class="slider__dot"></span>
-                    <span class="slider__dot slider__dot--active"></span>
-                    <span class="slider__dot"></span>
-                </div>
-            </div>
         </div>
     </body>
 </html>
