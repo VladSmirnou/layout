@@ -1,0 +1,220 @@
+@import '../components/container/container.css';
+
+@import '../components/text-field/text-field.css';
+
+@import '../components/heading/heading.css';
+@import '../components/heading/_decorate/_underline.css';
+
+@import '../components/svg-icon/svg-icon.css';
+@import '../components/close-button/close-button.css';
+
+@import '../components/header/header.css';
+@import '../components/header/__container/header__container.css';
+@import '../components/header/__burger-menu-button/header__burger-menu-button.css';
+@import '../components/header/__desktop-menu-wrapper/header__desktop-menu-wrapper.css';
+@import '../components/header/__navigation/header__navigation.css';
+
+@import '../components/list/list.css';
+@import '../components/list/_colgap/list_colgap_20.css';
+@import '../components/list/__button/_underline/list__button_underline_work.css';
+@import '../components/list/__button/_underline/list__button_underline_works-menu.css';
+
+@import '../components/list/__item/_decorate/list__item_decorate_header-nav-menu-mask.css';
+@import '../components/list/__link/_decorate/list__link_decorate_header-nav-menu-mask.css';
+@import '../components/list/__header-nav-menu-mask/_top/list__header-nav-menu-mask_top.css';
+@import '../components/list/__header-nav-menu-mask/_bottom/list__header-nav-menu-mask_bottom.css';
+@import '../components/list/__header-nav-menu-mask/_inner/list__header-nav-menu-mask_inner.css';
+
+@import '../components/section-entry/section-entry.css';
+@import '../components/section-entry/__heading/_text-style/section-entry__heading_text-style_skill.css';
+@import '../components/section-entry/__descr/section-entry__descr.css';
+@import '../components/section-entry/__heading/_margin/section-entry__heading_margin_skill.css';
+@import '../components/section-entry/_padding/section-entry_padding_skill.css';
+@import '../components/section-entry/__descr/_margin/section-entry__descr_margin_slider.css';
+@import '../components/section-entry/__image/section-entry__image.css';
+@import '../components/section-entry/__descr/_text-style/section-entry__descr_text-align_l.css';
+@import '../components/section-entry/__inner/section-entry__inner.css';
+@import '../components/section-entry/__descr/_margin/section-entry__descr_margin_work.css';
+@import '../components/section-entry/__overlay-wrapper/section-entry__overlay-wrapper.css';
+@import '../components/section-entry/__button/section-entry__button.css';
+
+@import '../components/contact-form/__fieldset/contact-form__fieldset.css';
+@import '../components/contact-form/__button/contact-form__button.css';
+
+@import '../components/button/button.css';
+@import '../components/button/_active/button_active_underlined.css';
+@import '../components/button/_active/button_active_long-underline.css';
+
+@import '../components/contact-form/contact-form.css';
+@import '../components/contact-form/__text-area/contact-form__text-area.css';
+
+@import '../components/burger-menu-button/burger-menu-button.css';
+@import '../components/burger-menu-button/__middle-line/burger-menu-button__middle-line.css';
+
+@import '../components/icon-button/__svg-icon/_size/icon-button__svg-icon_size_s.css';
+
+@import '../components/logo/logo.css';
+@import '../components/logo/__svg-icon/_fill/logo__svg-icon_fill_current.css';
+@import '../components/logo/__svg-icon/_size/logo__svg-icon_size_s.css';
+@import '../components/logo/_background-shape/logo_background-shape_square.css';
+@import '../components/logo/_background-shape/logo_background-shape_circle.css';
+
+@import '../components/footer/footer.css';
+@import '../components/footer/__heading/footer__heading.css';
+@import '../components/footer/__list/footer__list.css';
+@import '../components/footer/__text/footer__outro-text.css';
+
+@import '../components/freelance/freelance.css';
+@import '../components/freelance/__button/freelance__button.css';
+
+@import '../components/contact/contact.css';
+@import '../components/contact/__form/contact__form.css';
+
+@import '../components/slider/__dot/slider__dot.css';
+@import '../components/slider/__dot/_active/slider__dot_active.css';
+@import '../components/slider/__dots/slider__dots.css';
+
+@import '../components/testimony/_heading/testimony__heading.css';
+@import '../components/testimony/__slider/testimony__slider.css';
+
+@import '../components/my-works/__list/my-works__list.css';
+@import '../components/my-works/__inner/my-works__inner.css';
+@import '../components/my-works/__section-entry/my-works__section-entry.css';
+
+@import '../components/skills/skills.css';
+@import '../components/skills/__inner/skills__inner.css';
+@import '../components/skills/__section-entry/skills__section-entry.css';
+
+@import '../components/main/main.css';
+@import '../components/main/__container/main__container.css';
+@import '../components/main/__img/main__img.css';
+@import '../components/main/__img-wrapper/main__img-wrapper.css';
+@import '../components/main/__name/main__name.css';
+@import '../components/main/__name-wrapper/main__name-wrapper.css';
+@import '../components/main/__title/main__title.css';
+
+
+/* || VARIABLES */
+:root {
+    /* Colors */
+    --base-color: #7572D5;
+    --base-color-text: #FFF;
+    --base-color-background: #1f1f20;
+    --base-color-background-90: #1f1f20E6;
+    --alt-color-background: #252527;
+    --field-stroke: #4A4A4A;
+    --on-top-arrow-background: #000000;
+    --placeholder-color: #495057;
+    --social-icons-background: #FFFFFF1A;
+    --slider-inactive-dot: #FFFFFF80;
+
+    /* Animation */
+    --transition-duration: 0.2s;
+}
+
+/* || GLOBAL STYLES */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body {
+    font-family: Poppins, serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--base-color-text);
+    background-color: var(--base-color-background);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+    display: inline-block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+fieldset {
+    padding: 0;
+    border: none;
+}
+
+section {
+    padding: 80px 0 80px;
+}
+
+section:nth-child(odd) {
+    background-color: var(--alt-color-background);
+}
+
+@media only screen and (width >= 768px) {
+    .section-entry_padding_skill {
+    }
+
+    .header__burger-menu-button {
+        display: none;
+    }
+
+    .header__desktop-menu-wrapper {
+        display: contents;
+    }
+
+    .my-works__section-entry {
+        max-width: 540px;
+    }
+ 
+    .my-works__inner {
+        grid-template-columns: repeat(2, minmax(330px, 540px));
+    }
+
+    .main {
+        padding: 231px 0 298px
+    }
+
+    .main__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__img {
+        width: 350px;
+        height: 430px;
+    }
+
+    .main__img-wrapper::before {
+        height: 470px;
+        width: 360px;
+    }
+
+    .main__name {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .heading_decorate_underline::after {
+        bottom: -30px;
+    }
+}
+
+@media only screen and (width >= 1030px) {
+    .main__container {
+        justify-content: space-between;
+        flex-direction: row;
+    }
+}
