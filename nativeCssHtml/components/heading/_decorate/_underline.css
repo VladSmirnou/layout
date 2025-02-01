@@ -1,0 +1,14 @@
+.heading_decorate_underline {
+    position: relative;
+}
+
+.heading_decorate_underline::after {
+    content: '';
+    width: 55px;
+    height: 1px;
+    background-color: var(--base-color);
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translate(-50%);
+}

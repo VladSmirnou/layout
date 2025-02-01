@@ -1,7 +1,10 @@
 @import '../components/container/container.css';
 
 @import '../components/text-field/text-field.css';
+
 @import '../components/heading/heading.css';
+@import '../components/heading/_decorate/_underline.css';
+
 @import '../components/svg-icon/svg-icon.css';
 @import '../components/close-button/close-button.css';
 
@@ -279,12 +282,11 @@ section:nth-child(odd) {
     }
 
     .main__container {
-        justify-content: space-between;
-        flex-direction: row;
+        flex-direction: column;
+        align-items: center;
     }
 
     .main__img {
-        margin-right: 0px;
         width: 350px;
         height: 430px;
     }
@@ -297,6 +299,17 @@ section:nth-child(odd) {
     .main__name {
         font-size: 50px;
         line-height: 50px;
+    }
+
+    .heading_decorate_underline::after {
+        bottom: -30px;
+    }
+}
+
+@media only screen and (width >= 1030px) {
+    .main__container {
+        justify-content: space-between;
+        flex-direction: row;
     }
 }
 
