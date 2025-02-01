@@ -19,6 +19,12 @@
 @import '../components/list/__button/_underline/list__button_underline_work.css';
 @import '../components/list/__button/_underline/list__button_underline_works-menu.css';
 
+@import '../components/list/__item/_decorate/list__item_decorate_header-nav-menu-mask.css';
+@import '../components/list/__link/_decorate/list__link_decorate_header-nav-menu-mask.css';
+@import '../components/list/__header-nav-menu-mask/_top/list__header-nav-menu-mask_top.css';
+@import '../components/list/__header-nav-menu-mask/_bottom/list__header-nav-menu-mask_bottom.css';
+@import '../components/list/__header-nav-menu-mask/_inner/list__header-nav-menu-mask_inner.css';
+
 @import '../components/section-entry/section-entry.css';
 @import '../components/section-entry/__heading/_text-style/section-entry__heading_text-style_skill.css';
 @import '../components/section-entry/__descr/section-entry__descr.css';
@@ -159,11 +165,11 @@ section:nth-child(odd) {
 
 /* || COMPONENTS */
 
-.menu__link--with-mask--color_base {
+/* .menu__link--with-mask--color_base {
     color: var(--base-color);
-}
+} */
 
-.menu__item--pos_relative {
+/* .menu__item--pos_relative {
     position: relative;
     color: var(--base-color);
 }
@@ -188,9 +194,9 @@ section:nth-child(odd) {
 
 .menu__item--pos_relative:hover .bottom-link-mask {
     left: -3px;
-}
+} */
 
-.menu__link--with-mask {
+/* .menu__link--with-mask {
     display: inline-block;
     outline: solid 2px transparent;
     outline-offset: 3px;
@@ -204,8 +210,8 @@ section:nth-child(odd) {
 
 .menu__link--with-mask:hover {
     color: transparent;
-}
-
+} */
+/* 
 .link-mask {
     display: inline-block;
     position: absolute;
@@ -222,12 +228,12 @@ section:nth-child(odd) {
 .inner-link-mask {
     display: inline-block;
     transform: translateY(-50%);
-}
+} */
 
-.menu--colgap-20 {
+/* .menu--colgap-20 {
     column-gap: 20px;
-}
-
+} */
+/* 
 .menu__logo--social-link-theme {
     display: flex;
     align-items: center;
@@ -255,7 +261,7 @@ section:nth-child(odd) {
 
 .menu__logo--social-link-theme:focus-visible {
     outline-color: var(--base-color);
-}
+} */
 
 @media only screen and (width >= 768px) {
     .section-entry_padding_skill {

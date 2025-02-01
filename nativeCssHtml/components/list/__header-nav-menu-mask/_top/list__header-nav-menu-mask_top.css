@@ -1,0 +1,10 @@
+.list__header-nav-menu-mask_top {
+    display: inline-block;
+    position: absolute;
+    height: 50%;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    z-index: -2;
+    color: transparent;
+}

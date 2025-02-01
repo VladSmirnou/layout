@@ -1,0 +1,4 @@
+.list__header-nav-menu-mask_inner {
+    display: inline-block;
+    transform: translateY(-50%);
+}
